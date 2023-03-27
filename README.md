@@ -1,13 +1,13 @@
 # Steps to reproduce
 
-`npm install -g eas-cli@3.5.0`
-`npx create-expo-app expo-update-bugs`
-`cd expo-update-bugs`
-`npx expo install expo-dev-client`
+- `npm install -g eas-cli@3.5.0`
+- `npx create-expo-app expo-update-bugs`
+- `cd expo-update-bugs`
+- `npx expo install expo-dev-client`
 <!-- `npx expo install react-native-maps` -->
-`npx expo install @react-native-firebase/app @react-native-firebase/storage`
-`npx expo install expo-google-sign-in `
-`eas build --platform ios --clear-cache`
+- `npx expo install @react-native-firebase/app @react-native-firebase/storage`
+- `npx expo install expo-google-sign-in `
+- `eas build --platform ios --clear-cache`
 FAIL!
 
 ## Run expo doctor:
