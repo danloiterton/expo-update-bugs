@@ -4,11 +4,10 @@
 - `npx create-expo-app expo-update-bugs`
 - `cd expo-update-bugs`
 - `npx expo install expo-dev-client`
-<!-- `npx expo install react-native-maps` -->
 - `npx expo install @react-native-firebase/app @react-native-firebase/storage`
 - `npx expo install expo-google-sign-in `
 - `eas build --platform ios --clear-cache`
-FAIL!
+- FAIL!
 
 ## Run expo doctor:
 Running "expo doctor"
